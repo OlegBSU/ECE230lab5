@@ -1,8 +1,9 @@
 module circuit_b(
-    // Declare inputs
-    // Declare Y output
+ input A,B,C,D,   // Declare inputs
+ output Y   // Declare Y output
 );
 
-    // Enter logic equation here
+    assign Y = (B & ~D) | (~C & ~D) | (A & B);// Enter logic equation here
 
 endmodule
+
