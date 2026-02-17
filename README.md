@@ -14,6 +14,8 @@ the constraints file maps your inputs and outputs to real pins on the FPGA.
 | Question 3 | Your answers to the question | 25% |
 
 ## Name
+Oleg Strekachev
+Travis Goodrich
 
 ## Lab Summary
 In this lab we learned how to use circuit modules in the modular way. Each module declares it's inputs and outputs which are then connected together and assigned to hardware elements in the top.v block. We started from circuit_a and circuit_b modules. For each module we were given a truth table of inputs, outputs and a map of pin connections between modules and hardware elements of the board.
